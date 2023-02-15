@@ -1,0 +1,36 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(219, 17, 17);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15em;
+  width: 100%;
+}
+.title {
+  font-size: 65px;
+  color: darkorange;
+  width: 100vh;
+}
+
+.logo > img {
+  height: 150px;
+  width: 150px;
+  margin: 0px 100px 0px 100px ;
+}
+
+@media (max-width: 767px) {
+  /* Define a propriedade display da div como "none" */
+  .logo > img {
+    display: none;
+  }
+  .title {
+    font-size: 35px;
+    max-width: max-content;
+  }
+}
