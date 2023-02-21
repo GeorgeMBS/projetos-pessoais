@@ -1,13 +1,13 @@
 import './App.css'
 import Header from './components/Header/Header'
-import Menu from './components/menu/Menu'
+import Layout from './components/Layout'
 
 function App() {
 
   return (
     <div className="App">
       <Header />
-      <Menu />
+      <Layout />
     </div>
   )
 }
