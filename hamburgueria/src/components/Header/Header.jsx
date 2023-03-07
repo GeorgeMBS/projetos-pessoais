@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./Header.css"
+import "./Header.css"
 import ShoppingCart from './ShoppingCart'
 
 const Header = () => {
@@ -14,7 +14,8 @@ const Header = () => {
       <div className='Cart'>
         <ShoppingCart />
       </div>
-    </div>
+    </div>  
+    
   )
 }
 

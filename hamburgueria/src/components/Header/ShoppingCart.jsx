@@ -7,7 +7,6 @@ export const ShoppingCart = () => {
       <div>
         <img className='cartLogo' src="../src/images/cart.png" alt="cart" />
       </div>
-
     </div>
   )
 }

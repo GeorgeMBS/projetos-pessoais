@@ -1,0 +1,13 @@
+list {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  height: 5px;
+  background-color: aliceblue;
+}
+
+navigation {
+  font-family: 'Righteous', cursive;
+  font-size: medium;
+  color: black;
+}

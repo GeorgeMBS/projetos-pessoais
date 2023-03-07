@@ -3,11 +3,12 @@ import Menu from './menu/Menu'
 import styles from './Layout.css'
 
 
+
 const Layout = () => {
   return (
-    <div className='Layout'>
       
-      <Menu />
+    
+    <div className='Layout'>
       
       <div className='LayoutBox'>
        
