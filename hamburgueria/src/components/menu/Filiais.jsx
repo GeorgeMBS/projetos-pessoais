@@ -2,7 +2,9 @@ import React from 'react'
 
 const Filiais = () => {
   return (
-    <div>Filiais</div>
+    <div>
+      <h1>Filiais</h1>
+    </div>
   )
 }
 

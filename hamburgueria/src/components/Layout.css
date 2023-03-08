@@ -1,14 +1,13 @@
 .Layout {
-  display: grid;
+  
+  display: flex;
   align-items: center;
   justify-content: center;
-  
 }
   
 
 .LayoutBox {
-  width: 100px;
-  height: 100px;
+  
   margin-top: 50px;
   max-width: 1200px;
   width: 500em;
@@ -17,4 +16,8 @@
   background-color: aliceblue;
   border-radius: 50px;
   box-shadow: #000 2px 5px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
 }

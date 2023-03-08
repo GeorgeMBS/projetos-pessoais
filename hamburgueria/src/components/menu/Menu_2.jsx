@@ -11,16 +11,16 @@ const Menu_2 = () => {
           <Link to="/">Home</Link>
         </li>
         <li className='navigation'>
-          <Link to="/about">Cardápio</Link>
+          <Link to="/cardapio">Cardápio</Link>
         </li>
         <li className='navigation'>
-          <Link to="/">Filiais</Link>
+          <Link to="/filiais">Filiais</Link>
         </li>
         <li className='navigation'>
-          <Link to="/">Sobre Nós</Link>
+          <Link to="/sobre">Sobre Nós</Link>
         </li>
         <li className='navigation'>
-          <Link to="/">Contato</Link>
+          <Link to="/contato">Contato</Link>
         </li>
       </ul>
     </nav>

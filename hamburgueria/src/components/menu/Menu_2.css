@@ -1,13 +1,23 @@
-list {
-  display: flex;
-  justify-content: space-around;
-  width: 200px;
-  height: 5px;
-  background-color: aliceblue;
+.list {
+  margin: 30px auto 0;
+	position: relative;
+	width: 590px;
+	height: 50px;
+	background-color: #ff0000;
+	border-radius: 8px;
+	font-size: 0;
 }
 
-navigation {
-  font-family: 'Righteous', cursive;
-  font-size: medium;
-  color: black;
+.navigation {
+  line-height: 50px;
+	height: 50px;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
 }
