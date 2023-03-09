@@ -13,7 +13,9 @@ function App() {
       <div className="App">
         <Header />
         <Menu_2 />
-        <Layout />
+        <div className='LayoutContainer'>
+          <Layout />
+        </div>
       </div>
     </BrowserRouter>
   );

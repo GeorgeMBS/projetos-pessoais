@@ -9,7 +9,7 @@ const Header = () => {
         <img src="../src/images/carne.png" alt="logo" />
       </div>
       <div className='title'>
-        <h1>Hamburgueria</h1>
+        <h1>Hamburgueria GM</h1>
       </div>
       <div className='Cart'>
         <ShoppingCart />
