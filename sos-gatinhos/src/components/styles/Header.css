@@ -1,0 +1,28 @@
+.head {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.logo {
+  height: 120px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-family: bubbleEb; 
+  font-size: xx-large;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.logo, .nav, .title {
+  margin: 50px; /* Ajuste as margens conforme necessário */
+}
