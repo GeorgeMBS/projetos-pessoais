@@ -2,7 +2,7 @@ import React from 'react'
 
 const Tampinhas = () => {
   return (
-    <div>Tampinhas</div>
+    <div><h1>Tampinhas</h1></div>
   )
 }
 

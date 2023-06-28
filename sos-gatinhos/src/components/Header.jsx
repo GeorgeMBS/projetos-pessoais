@@ -1,5 +1,6 @@
 import React from 'react'
-import styles from "../components/styles/Header.css"
+import { Link } from 'react-router-dom';
+import './styles/Header.css';
 
 const Header = () => {
   return (
@@ -7,11 +8,11 @@ const Header = () => {
       <div><img className='logo' src="\imagens\Logo1.png" alt="Logotipo" title='Logotipo Gatos da Colônia' /></div>
       <h1 className='title'>SOS Gatos da Colônia</h1>
       <ul className='nav'>
-        <li>Home</li>
-        <li>Sobre nós</li>
-        <li>Contato</li>
-        <li>Brechó</li>
-        <li>Doações</li>
+        <li><Link to="/" className='text-link'>Home</Link></li>
+        <li><Link to="/About" className='text-link'>Sobre nós</Link></li>
+        <li><Link to="/Contact" className='text-link'>Contato</Link></li>
+        <li><Link to="/Brecho" className='text-link'>Brechó</Link></li>
+        <li><Link to="/Doacoes" className='text-link'>Doações</Link></li>
       </ul>
 
     </div>
@@ -19,3 +20,4 @@ const Header = () => {
 }
 
 export default Header
+
