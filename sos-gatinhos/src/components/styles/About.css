@@ -1,8 +1,7 @@
 .container-principal {
   width: 100%;
-  height: 100vh;
   background-color: #FCF6EA;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .imagem-gatos img {

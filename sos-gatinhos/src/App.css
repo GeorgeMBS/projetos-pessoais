@@ -4,3 +4,18 @@
   padding: 0;
   
 }
+
+body, h1, h2, h3, h4, h5, h6, p, div, header, main, footer {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.spacer {
+  background-color: #FCF6EA; /* Mesma cor de fundo do elemento principal */
+  height: 75px; /* Ajuste a altura conforme necessário para dar espaço entre o conteúdo principal e o rodapé */
+}
+
+main {
+  background-color: #FCF6EA;
+}

@@ -15,23 +15,34 @@ function App() {
 
   return (
 
-<BrowserRouter >
-    <div>
-      
+    <BrowserRouter >
+
+
+      <div className="app-container">
+
+
         <Header />
-        
+        <main className="content">
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route path= "/About" element={<About/>} />
+            <Route path="/About" element={<About />} />
             <Route path="/Contact" element={<Contact />} />
             <Route path="/Brecho" element={<Brecho />} />
             <Route path="/Doacoes" element={<Doacoes />} />
           </Routes>
-        
+        </main>
+        <div className='spacer'/>
         <Footer />
-      
-    </div>
-</BrowserRouter>
+
+      </div>
+
+
+
+
+
+
+    </BrowserRouter>
+
   )
 }
 

@@ -4,7 +4,9 @@ import styles from './styles/Footer.css'
 const Footer = () => {
   return (
     <div className='rodape'>
-      <h1>Footer</h1>
+      <footer>
+        <h1>Rodapé</h1>
+      </footer>
     </div>
   )
 }
