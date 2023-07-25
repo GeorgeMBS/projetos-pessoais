@@ -1,34 +1,40 @@
 .head {
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(to bottom, #AD0F0F, #AD0F0F 65%, #FCF6EA 40%);
   color: #000000;
   margin: 0;
-  padding: 30px;
+  padding: 1.875em;
   max-width: 100%;
-  height: 180px;
+  height: 13em;
+  z-index: 999; 
 
 }
 
 img.logo {
-  width: 200px;
-  height: 200px;
-  margin-left: 50px;
-  
+
+  width: 12em;
+  height: 12em;
+  margin-left: 3em;
+
 }
 
 .nav {
-  display: flex;
+
+  display: inline;
   align-items: center;
   background-color: #FCF6EA;
-  padding: 10px;
-  border-radius: 10px;
-  margin-top: 35px;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 3em;
+  transform: scale(1);
   
 }
 
 ul li {
+
   padding: 2px 10px;
   display: inline;
   color: #000000;
@@ -36,29 +42,131 @@ ul li {
   font-family: 'Open Sans', sans-serif;
   font-weight: bolder;
   font-size: larger;
+  transition: transform 0.2s ease;
 
 }
 
+
 ul li:hover {
-  background-color: #FCF6EA;
-  color: #000000;
-  border-bottom: 3px solid #AD0F0F;
-  transform: scale(1.2);
+  background-color: #AD0F0F;
+  color: #FCF6EA;
   cursor: pointer;
-  border-radius: 35px;
+  border-radius: 10px;
+  transform: scale(1);
 }
 
 .text-link {
+
   color: inherit;
   text-decoration: inherit;
 }
 
 .title {
+
   font-family: bubbleEb;
-  font-size: 70px;
+  font-size: 5em;
+  text-align: center;
   background-color: #FCF6EA;
   padding: 10px;
   border-radius: 35px;
   margin-top: 30px;
+  border-bottom: 4px solid #AD0F0F;
+
+}
+
+@media screen and (max-width: 768px) {
+  .head {
+    flex-direction: column;
+    height: auto;
+  }
+
+  img.logo {
+    margin-left: 0;
+    margin-bottom: 1em;
+  }
+
+  .nav {
+    margin-top: 1em;
+    text-align: center;
+  }
+
+
+  ul li {
+    display: block;
+    margin: 5px 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+  }
+
+
+  .title {
+    font-size: 3em;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+  .head {
+    flex-direction: row;
+    height: auto;
+  }
+
+  img.logo {
+    margin-left: 1em;
+    margin-bottom: 1em;
+  }
+
+  .nav {
+    margin-top: -2em;
+    text-align: center;
+    
+  }
+
+
+  ul li {
+    display: block;
+    margin: 5px 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    
+  }
+
+
+  .title {
+    font-size: 3.5em;
+    width: 9em;
+    margin: 1em;
+  }
   
 }
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+  .title {
+    font-size: 4em;
+    width: 7em;
+    margin: 1em;
+  }
+
+.nav {
+    margin-top: 2em;
+    text-align: center;
+    width: 20em;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1720px) {
+  .title {
+    font-size: 4em;
+    width: 10em;
+    margin: 1em;
+  }
+
+.nav {
+    margin-top: 2em;
+    text-align: center;
+    width: 20em;
+  }
+}
+

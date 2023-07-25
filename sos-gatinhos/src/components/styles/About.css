@@ -37,3 +37,31 @@
   margin-right: 20px;
   line-height: 2;
 }
+
+@media screen and (max-width: 768px) {
+  .titulo {
+    font-size: 40px; /* Reduzimos o tamanho do título para telas menores */
+    font-family: bubbleEb;
+  }
+
+  .subtitulo {
+    font-size: 24px; /* Reduzimos o tamanho do subtítulo para telas menores */
+    padding-left: 20px; /* Ajustamos o espaçamento lateral */
+    padding-top: 40px; /* Ajustamos o espaçamento superior */
+    
+  }
+
+  .texto {
+    font-size: 24px; /* Reduzimos o tamanho do texto para telas menores */
+    padding-top: 30px; /* Ajustamos o espaçamento superior */
+  }
+
+  .imagem-gatos img {
+    float: none; /* Removemos o float para centralizar a imagem em telas menores */
+    width: 90%; /* Ajustamos a largura da imagem para ocupar 100% do espaço disponível */
+    max-width: 100%; /* Removemos a largura máxima para que a imagem ocupe o espaço total */
+    margin: 20px 0; /* Centralizamos a imagem horizontalmente e adicionamos espaçamento vertical */
+    padding: 20px; /* Reduzimos o padding para ajustar o espaçamento interno */
+  }
+
+}

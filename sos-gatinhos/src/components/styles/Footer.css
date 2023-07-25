@@ -16,3 +16,13 @@
   position: relative;
   width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .content {
+    padding-bottom: 20px; /* Reduzimos o espaço no conteúdo para dar mais espaço ao rodapé */
+  }
+
+  .rodape {
+    font-size: 14px; /* Reduzimos o tamanho da fonte para telas menores */
+  }
+}
