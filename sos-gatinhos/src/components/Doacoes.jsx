@@ -16,9 +16,9 @@ const Doacoes = () => {
       </div>
 
       <div className='cobertor'>
-        <h1>
+        <h2>
           A DOAÇÃO DE COBERTINHAS TAMBÉM É MUITO IMPORTANTE!!!
-        </h1>
+        </h2>
         <p className='texto'>
           De 15 em 15 dias uma equipe voluntária vai até a colônia realizar uma limpeza do local, e é necessário fazer a troca das cobertas molhadas. Por isso é importante que tenhamos um estoque delas! Pode ser qualquer tecido de plush: cobertinhas, sobras de tecido, tapetinhos... o que tu achar que vai esquentar nossos bichanos!
         </p>

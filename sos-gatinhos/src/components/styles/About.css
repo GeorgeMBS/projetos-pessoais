@@ -6,9 +6,7 @@
 
 .imagem-gatos img {
   float: right;
-  /* ou float: right; */
   width: 80vh;
-  /* Define a largura desejada para a barra de imagem */
   margin-right: 20px;
   margin-left: 20px;
   border-radius: 100px;

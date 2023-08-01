@@ -1,28 +1,37 @@
 
-.app-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Garante que a altura mínima da página seja igual à altura da viewport */
-}
-
-.content {
-  flex: 1; /* Faz com que o conteúdo principal ocupe o espaço disponível */
-  padding-bottom: 40px; /* Ajuste o valor conforme necessário para dar espaço ao rodapé */
-}
-
 .rodape {
   background-color: #AD0F0F;
   border-top: 2px solid #333;
   position: relative;
   width: 100%;
+  height: 30vh;
+  display: grid;
+  align-items: center;
+  justify-content: space-around;
 }
 
-@media screen and (max-width: 768px) {
-  .content {
-    padding-bottom: 20px; /* Reduzimos o espaço no conteúdo para dar mais espaço ao rodapé */
-  }
+.rodape img {
+  height: 60px;
+  width: 60px;
+}
 
-  .rodape {
-    font-size: 14px; /* Reduzimos o tamanho da fonte para telas menores */
-  }
+.rodape .social a {
+  margin: 0 10px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dGitHub a {
+  text-decoration: none;
+  color: #FCF6EA;
+  font-size: large;
+}
+
+.dGitHub p {
+  color: rgb(186, 216, 130);
+  font-size: large;
 }
