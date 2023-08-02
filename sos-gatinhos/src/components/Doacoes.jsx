@@ -13,8 +13,8 @@ const Doacoes = () => {
         </h2>
 
         <img 
-        src="imagens\Ração.png" 
-        alt="" 
+        src="src\imagens\Ração.png" 
+        alt="Ração" 
         />
         
         <p className='texto'>
@@ -35,8 +35,8 @@ const Doacoes = () => {
         </p>
 
         <img 
-        src="imagens\Cobertas.png" 
-        alt="" 
+        src="src\imagens\Cobertas.png" 
+        alt="Cobertas" 
         />
 
       </div>
@@ -48,8 +48,8 @@ const Doacoes = () => {
         </h1>
 
         <img 
-        src="imagens\Tampinhas.jpg" 
-        alt="" 
+        src="src\imagens\Tampinhas.jpg" 
+        alt="Tampinhas" 
         />
 
         <p className='texto'>
