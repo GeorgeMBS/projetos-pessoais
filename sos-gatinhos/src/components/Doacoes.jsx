@@ -1,40 +1,62 @@
 import React from 'react'
+import styles from './styles/Doacoes.css'
 
 
 const Doacoes = () => {
   return (
-    <div className='container-principal'>
+    <div className='containerprincipal'>
 
       <div className='racao'>
+
         <h2>
           ESSA É A MARCA DA RAÇÃO QUE ELES COMEM! Para quem quiser doar ela em si!
         </h2>
+
+        <img 
+        src="imagens\Ração.png" 
+        alt="" 
+        />
+        
         <p className='texto'>
           O VALOR DELA É SUUUPER EM CONTA, além de não ter corante nos grãos, também é nutritiva. O pedido de marca específica não é somente uma exigência de paladar,queremos prezar pela saúde deles, pois a mudança brusca de alimentação pode causar problemas gastrointestinais e não queremos isso.
         </p>
-        <img src="imagens\Ração.png" alt="" />
+
       </div>
 
+
       <div className='cobertor'>
+
         <h2>
           A DOAÇÃO DE COBERTINHAS TAMBÉM É MUITO IMPORTANTE!!!
         </h2>
+
         <p className='texto'>
           De 15 em 15 dias uma equipe voluntária vai até a colônia realizar uma limpeza do local, e é necessário fazer a troca das cobertas molhadas. Por isso é importante que tenhamos um estoque delas! Pode ser qualquer tecido de plush: cobertinhas, sobras de tecido, tapetinhos... o que tu achar que vai esquentar nossos bichanos!
         </p>
-        <img src="imagens\Cobertas.png" alt="" />
+
+        <img 
+        src="imagens\Cobertas.png" 
+        alt="" 
+        />
+
       </div>
+
 
       <div className='tampinhas'>
         <h1>
           PROJETO SOS TAMPINHAS
         </h1>
 
+        <img 
+        src="imagens\Tampinhas.jpg" 
+        alt="" 
+        />
+
         <p className='texto'>
           DOE E TRANSFORME A VIDA DOS GATOS DA COLÔNIA! CADA TAMPINHA FAZ A DIFERENÇA
         </p>
 
-        <img src="imagens\Tampinhas.jpg" alt="" />
+
 
         <h1>
           PONTOS DE COLETA TAMPINHAS DE PLÁSTICO
