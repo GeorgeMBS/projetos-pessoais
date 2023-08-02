@@ -13,7 +13,7 @@ const Doacoes = () => {
         </h2>
 
         <img 
-        src="src\imagens\Ração.png" 
+        src="src\imagens\racao.png" 
         alt="Ração" 
         />
         
@@ -35,7 +35,7 @@ const Doacoes = () => {
         </p>
 
         <img 
-        src="src\imagens\Cobertas.png" 
+        src="src\imagens\cobertas.png" 
         alt="Cobertas" 
         />
 
