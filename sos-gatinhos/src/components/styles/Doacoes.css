@@ -48,3 +48,7 @@ h1, h2, p {
   transform: translateY(-5px);
   transition: transform 0.3s ease;
 }
+
+.tampinhas img {
+  width: fit-content;
+}
