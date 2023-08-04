@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className='container-principal'>
       <h1 className='titulo'>Nossa História</h1>
-      <div className='imagem-gatos'><img src="imagens\001.jpg" alt="Gatinhos!" /></div>
+      <div className='imagem-gatos'><img src="public\static\imagensgdc\001.jpg" alt="Gatinhos!" /></div>
       <p className='texto'>
 
         Você já conhece a história dos gatinhos da colônia?
