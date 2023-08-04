@@ -48,7 +48,7 @@ const Doacoes = () => {
         </h1>
 
         <img 
-        src="/Tampinhas.jpg" 
+        src="/tampinhas.jpg" 
         alt="Tampinhas" 
         />
 
