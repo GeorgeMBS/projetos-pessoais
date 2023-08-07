@@ -30,6 +30,7 @@ img.logo {
   border-radius: 15px;
   margin-top: 3em;
   transform: scale(1);
+  box-shadow: 5px 5px 10px #ad0f0fa8;
   
 }
 
@@ -70,7 +71,8 @@ ul li:hover {
   padding: 10px;
   border-radius: 35px;
   margin-top: 30px;
-  border-bottom: 4px solid #AD0F0F;
+  
+  box-shadow: 5px 5px 10px #ad0f0fa8;
 
 }
 
