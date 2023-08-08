@@ -65,20 +65,23 @@
   }
 
   .subtitulo {
-    font-size: 24px; /* Reduzimos o tamanho do subtítulo para telas menores */
+    font-size: 2em; /* Reduzimos o tamanho do subtítulo para telas menores */
     padding-left: 20px; /* Ajustamos o espaçamento lateral */
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0.5em;
     
   }
 
   .texto01 {
-    text-align: center;
+    text-align: justify;
     font-size: 24px; /* Reduzimos o tamanho do texto para telas menores */
     padding-top: 30px; /* Ajustamos o espaçamento superior */
   }
 
   .texto02 {
     margin-top: 1em;
-    text-align: center;
+    text-align: justify;
     font-size: 24px; /* Reduzimos o tamanho do texto para telas menores */
     
   }
