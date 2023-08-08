@@ -90,8 +90,8 @@
     float: none; /* Removemos o float para centralizar a imagem em telas menores */
     width: 90%; /* Ajustamos a largura da imagem para ocupar 100% do espaço disponível */
     max-width: 100%; /* Removemos a largura máxima para que a imagem ocupe o espaço total */
-    margin: 20px 0; /* Centralizamos a imagem horizontalmente e adicionamos espaçamento vertical */
-    padding: 20px; /* Reduzimos o padding para ajustar o espaçamento interno */
+    margin:20px; /* Centralizamos a imagem horizontalmente e adicionamos espaçamento vertical */
+    padding: 0px; /* Reduzimos o padding para ajustar o espaçamento interno */
   }
 
   
@@ -99,7 +99,7 @@
     float: none; /* Removemos o float para centralizar a imagem em telas menores */
     width: 90%; /* Ajustamos a largura da imagem para ocupar 100% do espaço disponível */
     max-width: 100%; /* Removemos a largura máxima para que a imagem ocupe o espaço total */
-    margin: 20px 0; /* Centralizamos a imagem horizontalmente e adicionamos espaçamento vertical */
-    padding: 20px; /* Reduzimos o padding para ajustar o espaçamento interno */
+    margin:20px; /* Centralizamos a imagem horizontalmente e adicionamos espaçamento vertical */
+    padding: 0px; /* Reduzimos o padding para ajustar o espaçamento interno */
   }
 }
