@@ -67,16 +67,23 @@
   .subtitulo {
     font-size: 24px; /* Reduzimos o tamanho do subtítulo para telas menores */
     padding-left: 20px; /* Ajustamos o espaçamento lateral */
-    padding-top: 40px; /* Ajustamos o espaçamento superior */
     
   }
 
-  .texto {
+  .texto01 {
+    text-align: center;
     font-size: 24px; /* Reduzimos o tamanho do texto para telas menores */
     padding-top: 30px; /* Ajustamos o espaçamento superior */
   }
 
-  .imagem-gatos img {
+  .texto02 {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 24px; /* Reduzimos o tamanho do texto para telas menores */
+    
+  }
+
+   .imagem-gatos01 img{
     float: none; /* Removemos o float para centralizar a imagem em telas menores */
     width: 90%; /* Ajustamos a largura da imagem para ocupar 100% do espaço disponível */
     max-width: 100%; /* Removemos a largura máxima para que a imagem ocupe o espaço total */
@@ -84,4 +91,12 @@
     padding: 20px; /* Reduzimos o padding para ajustar o espaçamento interno */
   }
 
+  
+  .imagem-gatos02 img {
+    float: none; /* Removemos o float para centralizar a imagem em telas menores */
+    width: 90%; /* Ajustamos a largura da imagem para ocupar 100% do espaço disponível */
+    max-width: 100%; /* Removemos a largura máxima para que a imagem ocupe o espaço total */
+    margin: 20px 0; /* Centralizamos a imagem horizontalmente e adicionamos espaçamento vertical */
+    padding: 20px; /* Reduzimos o padding para ajustar o espaçamento interno */
+  }
 }
