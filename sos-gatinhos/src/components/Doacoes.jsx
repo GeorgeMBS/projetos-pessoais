@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './styles/Doacoes.css'
+import './styles/Doacoes.css'
 
 
 const Doacoes = () => {
