@@ -6,6 +6,7 @@ const Footer = () => {
 
     <div className='rodape'>
 
+      <p>Nos encontre nas redes sociais!</p>
 
       <div className='social'>
 

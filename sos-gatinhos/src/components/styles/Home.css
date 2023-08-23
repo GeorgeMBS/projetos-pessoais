@@ -1,5 +1,19 @@
 
-.principal {
+.geral {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
+
+.geral p {
+  text-decoration: none;
+  text-align: left;
+  padding: 100px 50px 50px 50px;
+  font-size: xx-large;
+
+}
+
+.carrossel {
   background: linear-gradient(to bottom, #ad0f0f2f, #AD0F0F 65%, #FCF6EA 40%);
   border-radius: 10px;
   width: 100%;
@@ -37,4 +51,44 @@
 .adote {
   width: 10em;
   height: 10em;
+}
+
+.subtitle {
+  text-align: center;
+  background-color: #AD0F0F;
+  color: #FCF6EA;
+  padding: 20px;
+  margin-top: .5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container-galeria {
+  padding: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.galeria {
+  pointer-events: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas na grade */
+  gap: 50px; /* Espaçamento entre as imagens */
+  justify-content: center; /* Centraliza horizontalmente as imagens */
+}
+
+.galeria img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.89);
+  object-fit: cover; /* Mantém a proporção e corta as imagens */
+}
+
+.adote {
+  width: 2em;
+  height: 2em;
 }

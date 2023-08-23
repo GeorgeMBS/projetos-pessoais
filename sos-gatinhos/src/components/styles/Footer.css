@@ -10,6 +10,13 @@
   justify-content: space-around;
 }
 
+.rodape p {
+  text-align: center;
+  color: #FCF6EA;
+  font-size: large;
+  padding-top: 20px;
+}
+
 .rodape img {
   height: 60px;
   width: 60px;
