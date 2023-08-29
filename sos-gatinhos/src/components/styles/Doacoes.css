@@ -1,41 +1,117 @@
 .containerprincipal {
-  width: 100%;
-  background-color: #FCF6EA;
   display: grid;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
 }
 
- 
-
-.containerprincipal img {
-  width: 30em;
-  height: auto;
-  max-width: 100%;
-}
-
-.tampinhas ul {
-  padding: 15px;
+ .racao {
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-}
+  justify-content: space-around;
+  padding: 2em;
+  padding-top: 5em;
+ }
 
-.tampinhas li {
-  pointer-events: none;
-  background-color: rgb(245, 217, 217);
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+ .racao img {
+  width: 35em;
+  height: 35em;
+  border-radius: 500px;
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.582);
+ }
+
+ .racao p{
   text-align: center;
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  margin: 10px;
+  padding: 1em;
+  font-size: xx-large;
+ }
+
+ .sub {
+  font-size: xx-large;
+  font-weight: bolder;
+ }
+
+
+ .cobertor {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2em;
   
+ }
+
+ .cobertor img {
+  width: 35em;
+  height: 35em;
+  border-radius: 500px;
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.582);
+ }
+
+ .cobertor p{
+  text-align: center;
+  padding: 1em;
+  font-size: xx-large;
+ }
+
+ .tampinhas {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  
+ }
+
+
+ .tampinhas img {
+  width: 100%;
+  height: 35em;
+  border-radius: 30px;
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.582);
+ }
+
+ .tampinhas p{
+  text-align: center;
+  padding: 1em;
+  padding-top: 1em;
+  font-size: xx-large;
+ }
+
+ .tampinhas h1 {
+  text-align: center;
+  background-color: #AD0F0F;
+  color: #FCF6EA;
+  padding: 20px;
+  
+  margin-top: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .lista {
+  display: flex;
+  gap: 50px;
+  margin-top: 4em;
 }
 
-.tampinhas img {
-  width: fit-content;
+.lista > div {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.lista h2 {
+  background-color: #f0f0f0;
+  padding: 5px;
+  margin: 0;
+}
+
+.lista ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.lista li {
+  margin-bottom: 5px;
+  margin: 10px;
 }

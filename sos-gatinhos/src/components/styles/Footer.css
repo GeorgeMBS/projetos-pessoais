@@ -18,8 +18,15 @@
 }
 
 .rodape img {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}
+
+.rodape img:hover {
+  height: 50px;
+  width: 50px;
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.582);
 }
 
 .rodape .social a {
@@ -36,6 +43,13 @@
   text-decoration: none;
   color: #FCF6EA;
   font-size: large;
+}
+
+.dGitHub a:hover {
+  background-color: #FCF6EA;
+  color: #AD0F0F;
+  border-radius: 10px;
+  font-weight: bolder;
 }
 
 .dGitHub p {
