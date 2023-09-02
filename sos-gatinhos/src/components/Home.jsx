@@ -78,7 +78,7 @@ const Home = () => {
         </ul>
       </div>
 
-      <h2 className='subtitle2'><img className='adote' src="src/adote.png" alt="adote" />Mas ainda precisamos achar um lar para muitos dos nossos gatinhos!</h2>
+      <h2 className='subtitle2'>Mas ainda precisamos achar um lar para muitos dos nossos gatinhos!</h2>
 
       <p>Entre em contato conosco pelas nossas redes sociais, ou no nosso grupo do <a className='whats' href="https://chat.whatsapp.com/J80TmFKX84I9M0GFNtQFfm">WhatsApp</a>.</p>
       <p>Toda ajuda é muito bem vinda! Na seção de "Doações" explicamos como você pode ajudar e fazer a diferença!</p>
