@@ -45,7 +45,7 @@ const Doacoes = () => {
         <p className='sub'>
           DOE E TRANSFORME A VIDA DOS GATOS DA COLÔNIA! 
         </p>
-        <p>CADA TAMPINHA FAZ A DIFERENÇA. Estes são os tips de tampas que você pode doar para ajudar nossos bichanos:</p>
+        <p>Cada tampinha faz a diferença. Estes são os tipos de tampas que você pode doar para ajudar nossos bichanos:</p>
 
         <img
           className='tampas'
